@@ -1,3 +1,5 @@
+import styles from "./styles.module.css"
+
 const Body_3 = () => {
   return (
     <div>
