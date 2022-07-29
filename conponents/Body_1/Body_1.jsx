@@ -1,9 +1,9 @@
-const Footer = () => {
+const Body_1 = () => {
   return (
     <div>
-      <h1>Footer Test</h1>
+      <h1>Body_1 Test</h1>
     </div>
   )
 }
 
-export default Footer;
+export default Body_1;
