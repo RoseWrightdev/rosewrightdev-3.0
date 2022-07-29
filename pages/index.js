@@ -6,6 +6,7 @@ import Thesis from '../conponents/Thesis/Thesis'
 import Body_1 from '../conponents/Body_1/Body_1'
 import Body_2 from '../conponents/Body_2/Body_2'
 import Body_3 from '../conponents/Body_3/Body_3'
+import Conclusion from '../conponents/Conclusion/Conclusion'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Body_1 />
         <Body_2 />
         <Body_3 />
+        <Conclusion />
       </Layout>
     </div>
   )
