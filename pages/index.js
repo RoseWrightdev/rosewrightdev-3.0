@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Layout from '../conponents/layout'
+import Thesis from '../conponents/Thesis/Thesis'
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/rose.ico" />
       </Head>
       <Layout>
-
+        <Thesis />
       </Layout>
     </div>
   )
