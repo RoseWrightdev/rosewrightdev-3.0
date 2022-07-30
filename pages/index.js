@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Layout from '../layout/layout'
 import Thesis from '../layout/Thesis/Thesis'
 import Body_1 from '../layout/Body_1/Body_1'
@@ -10,7 +9,7 @@ import Conclusion from '../layout/Conclusion/Conclusion'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className='bg-rose-500'>
       <Head>
         <title>RoseWright.dev</title>
         <meta name="description" content="RoseWright.dev" />
