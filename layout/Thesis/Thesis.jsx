@@ -8,7 +8,7 @@ import SplineModel from "../../conponents/SplineModel/SplineModel"
 const Thesis = () => {
   return (
     <div>
-      <h1 className={styles.test}>Thesis Test</h1>
+      <h1 className=''></h1>
       <SplineModel />
     </div>
   )

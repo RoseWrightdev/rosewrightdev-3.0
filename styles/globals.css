@@ -30,3 +30,14 @@ a {
   }
 }
 */
+
+
+::-webkit-scrollbar {
+  @apply bg-transparent w-[1vw]
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-black;
+    border-radius: 1000px;
+    border: 0.25vw solid white;
+  }
