@@ -3,8 +3,8 @@ import Spline from '@splinetool/react-spline';
 
 export default function SplineModel() {
   return (
-    <div>
-      <Spline scene="https://prod.spline.design/eVMpZrWJz0YQAPuz/scene.splinecode" />
+    <div className={styles.spline}>
+      <Spline scene="https://draft.spline.design/zGk4SoOKe92prb6O/scene.splinecode" />
     </div>
   )
 }
