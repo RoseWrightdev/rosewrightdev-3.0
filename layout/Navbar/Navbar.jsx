@@ -11,7 +11,7 @@ const Logo = () => {
   return (
     <div className={styles.logo}>
       <IoMdRose className={styles.rosewrightdevIcon} size={24}/>
-      <h1 className='font-semibold tracking-tight my-1 text-lg text-black-mid dark:text-red'>RoseWright.dev</h1>
+      <h1 className='font-semibold tracking-tight my-1 text-lg text-black dark:text-white'>RoseWright.dev</h1>
     </div>
   )
 }
@@ -19,7 +19,7 @@ const Logo = () => {
 //Narbar text Items
 const NarbarItem = ({text = 'TEXT PROP NOT FOUND'}) => {
   return (
-    <div className='my-auto m-[14px] text-sm font-light text-black'>
+    <div className='my-auto m-[14px] text-sm font-light text-black dark:text-white'>
       {text}
     </div>
   )
@@ -61,7 +61,7 @@ const ThemeIcon = () => {
 const Navbar = () => {
   return (
     <span>
-      <nav className={styles.navbar}>
+      <nav className='py-2 flex flex-row justify-between bg-white dark:bg-black'>
         <GroupOne>
           <Logo />
             <div className={styles.narbaritems}>

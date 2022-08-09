@@ -2,9 +2,7 @@ import styles from "./styles.module.css"
 
 const Conclusion = () => {
   return (
-    <div>
-      <h1></h1>
-    </div>
+    <div className='bg-gray dark:bg-black-off h-[100vh]'></div>
   )
 }
 

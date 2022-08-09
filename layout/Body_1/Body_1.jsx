@@ -2,9 +2,7 @@ import styles from "./styles.module.css"
 
 const Body_1 = () => {
   return (
-    <div>
-      <h1 className='text-red'></h1>
-    </div>
+    <div className='bg-white dark:bg-black-offlight h-[100vh]'></div>
   )
 }
 

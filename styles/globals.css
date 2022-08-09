@@ -35,7 +35,7 @@ a {
   }
   
   ::-webkit-scrollbar-thumb {
-    @apply bg-black;
+    @apply bg-gray-dark;
     border-radius: 1000px;
     border: 0.25vw solid white;
   }
