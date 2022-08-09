@@ -7,16 +7,16 @@
 /* Logo */
 
 .logo {
-  @apply flex flex-row ml-16
+  @apply flex flex-row ml-16 my-auto
 }
 
 .rosewrightdev {
   font-family: 'Poppins';
-  @apply font-semibold tracking-tight my-1 text-lg text-black-mid dark:text-red
+  @apply font-semibold tracking-tight my-1 text-lg text-black-mid
 }
 
 .rosewrightdevIcon {
-  @apply m-1 text-red dark:text-white
+  @apply m-1 text-red
 }
 
 /* NarbarItem */

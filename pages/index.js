@@ -7,9 +7,6 @@ import Body_2 from '../layout/Body_2/Body_2'
 import Body_3 from '../layout/Body_3/Body_3'
 import Conclusion from '../layout/Conclusion/Conclusion'
 
-import styles from '../styles/Home.module.css'
-
-
 export default function Home() {
   return (
     <div className=''>

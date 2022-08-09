@@ -18,9 +18,8 @@ const Logo = () => {
 
 //Narbar text Items
 const NarbarItem = ({text = 'TEXT PROP NOT FOUND'}) => {
-
   return (
-    <div className={styles.narbaritem}>
+    <div className='my-auto m-[14px] text-sm font-light text-black'>
       {text}
     </div>
   )
@@ -47,9 +46,13 @@ const ThemeIcon = () => {
   return (
     <span onClick={handleMode}>
       {darkTheme ? (
-        <FaSun size='24'  className={styles.rosewrightdevIcon}  />
+        <div className="bg-red-light h-auto w-auto rounded-full hover:rounded-xl p-[7px] mr-8 cursor-pointer transition-all  ease-in-out border-[1px] border-red shadow-lg">
+          <FaSun size='24' className='text-red'  />
+        </div>
       ) : (
-        <FaMoon size='24'  className={styles.rosewrightdevIcon}  />
+        <div className="bg-blue-light h-auto w-auto rounded-xl hover:rounded-full p-[7px] mr-8 cursor-pointer transition-all  ease-in-out border-[1px] border-blue shadow-lg">
+          <FaMoon size='24' className='text-blue'  />
+        </div>
       )}
     </span>
   );
@@ -65,11 +68,13 @@ const Navbar = () => {
               <NarbarItem text="services"/>
               <NarbarItem text="expertise"/>
               <NarbarItem text="blog"/>
-              <NarbarItem text="contact"/>
               <NarbarItem text="about"/>
             </div>
         </GroupOne>
         <GroupTwo>
+          <div className="my-auto mr-4">
+          <NarbarItem text="contact"/>
+          </div>
           <ThemeIcon />
         </GroupTwo>
       </nav>
