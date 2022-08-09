@@ -12,11 +12,11 @@
 
 .rosewrightdev {
   font-family: 'Poppins';
-  @apply font-semibold tracking-tight my-1 text-lg text-black-mid
+  @apply font-semibold tracking-tight my-1 text-lg text-black-mid dark:text-red
 }
 
 .rosewrightdevIcon {
-  @apply m-1 text-red
+  @apply m-1 text-red dark:text-white
 }
 
 /* NarbarItem */
