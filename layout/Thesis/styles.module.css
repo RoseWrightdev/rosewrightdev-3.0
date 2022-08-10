@@ -1,0 +1,19 @@
+.container {
+    @apply h-[90vh]
+}
+
+.image {
+    @apply pt-8 pr-8
+}
+
+.flexbox {
+    @apply flex flex-row-reverse
+}
+
+.textcontainer {   
+    @apply  w-[50%] pt-16
+}
+
+.text {
+    @apply text-5xl font-semibold
+}
