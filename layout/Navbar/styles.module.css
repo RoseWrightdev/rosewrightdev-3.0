@@ -10,7 +10,7 @@
 
 .rosewrightdev {
   font-family: 'Poppins';
-  @apply font-semibold tracking-tight my-1 text-lg text-black-mid
+  @apply font-semibold tracking-tight my-1 text-lg text-black-800
 }
 
 .rosewrightdevIcon {
@@ -33,5 +33,5 @@
 
 /* Decoration */
 .linebreak {
-  @apply border-black-light
+  @apply border-black-700
 }

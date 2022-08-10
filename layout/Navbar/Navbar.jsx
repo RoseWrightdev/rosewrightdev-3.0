@@ -61,7 +61,7 @@ const ThemeIcon = () => {
 const Navbar = () => {
   return (
     <span>
-      <nav className='py-2 flex flex-row justify-between bg-white dark:bg-black'>
+      <nav className='py-2 flex flex-row justify-between bg-white dark:bg-black-900'>
         <GroupOne>
           <Logo />
             <div className={styles.narbaritems}>

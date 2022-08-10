@@ -3,11 +3,11 @@
 }
 
 .image {
-    @apply pt-8 pr-8
+    @apply mt-12 ml-16 mr-16 rounded-2xl   
 }
 
 .flexbox {
-    @apply flex flex-row-reverse
+    @apply flex flex-row
 }
 
 .textcontainer {   

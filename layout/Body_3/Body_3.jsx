@@ -1,9 +1,9 @@
 import styles from "./styles.module.css"
+import global from '../global.module.css'
 
 const Body_3 = () => {
   return (
-    <div className='bg-white dark:bg-black-offlight h-[100vh]'></div>
-
+    <div className={'bg-white dark:bg-black-500 ' + global.container}></div>
   )
 }
 
