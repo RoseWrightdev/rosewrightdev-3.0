@@ -21,11 +21,7 @@ module.exports = {
         600: '#444354',
         500: '#595867',
       },
-      //'black': '#2F2E41',
-      //'black-off': '#444354',
-      //'black-offlight': '#595867',
-      //'black-mid': '#2F2E41BF',
-      //'black-light': '#2F2E412f',
+      
       'gray': {
         900: '#a0a0a0',
         800: '#f2f2f2',

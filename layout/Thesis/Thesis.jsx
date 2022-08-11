@@ -3,8 +3,9 @@ import styles from './styles.module.css'
 import global from '../global.module.css'
 
 //conponents
-import SplineModel from "../../conponents/SplineModel/SplineModel"
-import Rose3 from "./Rose3.png"
+//import SplineModel from "../../conponents/SplineModel/SplineModel"
+//import RwDark from "./RwDark.png"
+import Rw from "./Rw.png"
 import Image from 'next/image'
 
 const Thesis = () => {
@@ -12,7 +13,7 @@ const Thesis = () => {
     <div className={'bg-gray-800 dark:bg-black-600 ' + styles.container}>
       <div className={styles.flexbox}>
         <div className={' ' + styles.image}>
-          <Image src={Rose3} alt='A pink blue and white 3d representaion of a online admin control dashboard.' width={530} height={430}/>
+          <Image src={Rw} alt='A pink blue and white 3d representaion of a online admin control dashboard.' width={530} height={430}/>
         </div>
         <div className={'' + styles.textcontainer}>
           <h1 className={'dark:text-white ' + styles.text}>I help people build interactive and compelling websites.</h1>
