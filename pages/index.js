@@ -13,7 +13,7 @@ export default function Home() {
       <Head>
         <title>RoseWright.dev</title>
         <meta name="description" content="RoseWright.dev" />
-        <link rel="icon" href="/rose.ico" />
+        <link rel="icon" href="/rose2.ico" />
       </Head>
       <Layout>
         <Thesis />

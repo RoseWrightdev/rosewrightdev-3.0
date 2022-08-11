@@ -14,7 +14,7 @@
 }
 
 .rosewrightdevIcon {
-  @apply m-1 text-red
+  @apply my-auto text-red
 }
 
 /* NarbarItem */
