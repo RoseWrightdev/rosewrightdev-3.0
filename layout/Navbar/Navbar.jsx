@@ -1,10 +1,9 @@
 import styles from "./styles.module.css"
-import { IoMdRose } from "react-icons/io";
 import {
   FaMoon,
   FaSun,
 } from 'react-icons/fa';
-import useDarkMode from '../../hooks/useDarkMode';
+import {useDarkMode} from '../../hooks/useDarkMode';
 
 //RoseWright.dev Logo
 const Logo = () => {
@@ -53,11 +52,11 @@ const ThemeIcon = () => {
     <span onClick={handleMode}>
       {darkTheme ? (
         <div className="bg-red-light h-auto w-auto rounded-full hover:rounded-xl p-[7px] mr-8 cursor-pointer transition-all  ease-in-out border-[1px] border-red shadow-lg">
-          <FaSun size='24' className='text-red'  />
+          <FaSun size='24' className='text-red' />
         </div>
       ) : (
         <div className="bg-blue-light h-auto w-auto rounded-xl hover:rounded-full p-[7px] mr-8 cursor-pointer transition-all  ease-in-out border-[1px] border-blue shadow-lg">
-          <FaMoon size='24' className='text-blue'  />
+          <FaMoon size='24' className='text-blue' />
         </div>
       )}
     </span>

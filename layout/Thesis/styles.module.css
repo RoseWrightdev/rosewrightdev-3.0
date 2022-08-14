@@ -1,5 +1,5 @@
 .container {
-    @apply h-[90vh]
+    @apply h-auto
 }
 
 .image {
