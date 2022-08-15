@@ -1,5 +1,5 @@
 .container {
-    @apply h-auto
+    @apply h-auto pb-1
 }
 
 .image {
@@ -16,4 +16,8 @@
 
 .text {
     @apply text-5xl font-semibold
+}
+
+.button {
+    @apply border-2 p-3 mt-4
 }
