@@ -35,3 +35,21 @@
 .linebreak {
   @apply border-black-700
 }
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: block;
+}
+
+@media only screen and (max-width: 1200px) {
+  .mobile {
+    display: block;
+  }
+  
+  .desktop {
+    display: none;
+  }
+}

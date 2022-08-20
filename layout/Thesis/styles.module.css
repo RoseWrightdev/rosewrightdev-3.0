@@ -3,15 +3,19 @@
 }
 
 .image {
-    @apply mt-12 ml-16 mr-16 rounded-2xl   
+    @apply mt-12 ml-16 mr-16 w-[50vw]
 }
 
 .flexbox {
     @apply flex flex-row
 }
 
+.imageSrc {
+    @apply p-1 w-[500px]
+}
+
 .textcontainer {   
-    @apply  w-[50%] pt-16
+    @apply  w-[50vw] pt-16
 }
 
 .text {
@@ -20,4 +24,19 @@
 
 .button {
     @apply border-2 p-3 mt-4
+}
+
+@media only screen and (max-width: 1200px) {
+    .flexbox {
+        @apply flex flex-col-reverse
+    }
+    .textcontainer {   
+        @apply  w-[100vw] mx-auto p-8
+    }
+    .image {
+        @apply w-[100vw] m-1
+    }
+    .text {
+        @apply text-2xl
+    }
 }
