@@ -30,7 +30,11 @@ const Thesis = () => {
           <h1 className={'dark:text-white ' + styles.text}>I help people build interactive and compelling websites.</h1>
           <br/>
           <h2 className={'dark:text-white ' + styles}>I work with a strong focus on simplicity, accessibility <br/> and responsive design.</h2>
-          <button className={'dark:border-white ' + styles.button}>test</button>
+          <button className={'dark:border-white ' + styles.button}>
+            <div className='dark:text-white'>
+              test
+            </div>
+          </button>
         </div>
       </div>
     </Container>
