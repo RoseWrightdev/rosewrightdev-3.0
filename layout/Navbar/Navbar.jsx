@@ -78,17 +78,24 @@ const Menu = (props) => {
             </div>
           </div>
           <div className="p-3 ">
+            
             <div className="p-3 ">
+              <h1 className='text-black-900 dark:text-white'>services</h1>
+            </div>
+            <div className="p-3 ">
+              <h1 className='text-black-900 dark:text-white'>expertise</h1>
+            </div>
+            <div className="p-3 ">
+              <h1 className='text-black-900 dark:text-white'>blog</h1>
+            </div>
+            <div className="p-3 ">
+              <h1 className='text-black-900 dark:text-white'>about</h1>
+            </div>
+            <div className="p-3 ">
+              <h1 className='text-black-900 dark:text-white'>contact</h1>
+            </div>
+            <div className="p-3 mr-auto">
               <ThemeIcon/>
-            </div>
-            <div className="p-3 ">
-              <h1 className='text-black-900 dark:text-white'>Test</h1>
-            </div>
-            <div className="p-3 ">
-              <h1 className='text-black-900 dark:text-white'>Test</h1>
-            </div>
-            <div className="p-3 ">
-              <h1 className='text-black-900 dark:text-white'>Test</h1>
             </div>
             <div className="p-3 cursor-pointer text-black-900 dark:text-white " onClick={props.onClick}>
               <AiOutlineClose />
@@ -105,7 +112,7 @@ const Menu = (props) => {
 const MenuBackground = (props) => {
   return (
     <div className={styles.mobile} >
-      <div className='h-[100vh] w-[50vw] z-50 fixed' onClick={props.onClick} >
+      <div className='h-[100vh] w-[50vw] z-50 fixed bg-black-700' onClick={props.onClick} >
     </div>
   </div>
   )
