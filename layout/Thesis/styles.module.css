@@ -1,5 +1,5 @@
 .container {
-    @apply h-auto pb-1
+    @apply h-auto pb-0
 }
 
 .image {
@@ -23,7 +23,7 @@
 }
 
 .button {
-    @apply border-2 p-3 mt-4
+    @apply border-2 p-3 mt-4 rounded-lg shadow-lg border-blue
 }
 
 @media only screen and (max-width: 1200px) {

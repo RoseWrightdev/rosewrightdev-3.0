@@ -10,6 +10,9 @@ import Image from 'next/image'
 import LightSpikes from './Svgs/DarkSpikes'
 import DarkSpikes from './Svgs/LightSpikes'
 
+//Icons
+import { MdArrowDownward } from "react-icons/md";
+
 const Container = ({children}) => {
   return (
     <div className={'bg-gray-800 dark:bg-black-600 ' + styles.container}>
@@ -31,8 +34,8 @@ const Thesis = () => {
           <br/>
           <h2 className={'dark:text-white ' + styles}>I work with a strong focus on simplicity, accessibility <br/> and responsive design.</h2>
           <button className={'dark:border-white ' + styles.button}>
-            <div className='dark:text-white'>
-              test
+            <div className='dark:text-white flex'>
+              learn more <div className='my-auto m-1 mr-0 ml-3'><MdArrowDownward /></div>
             </div>
           </button>
         </div>

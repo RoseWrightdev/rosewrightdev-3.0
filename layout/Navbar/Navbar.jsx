@@ -1,13 +1,17 @@
+//Styles
 import styles from "./styles.module.css"
+
+//Icons
 import {
   FaMoon,
   FaSun,
 } from 'react-icons/fa';
 import {IoMenuOutline} from "react-icons/io5";
-import {useDarkMode} from '../../hooks/useDarkMode';
-import {useState} from 'react';
 import { AiOutlineClose } from "react-icons/ai";
 
+//Hooks
+import {useDarkMode} from '../../hooks/useDarkMode';
+import {useState} from 'react';
 
 //RoseWright.dev Logo
 const Logo = () => {
@@ -24,6 +28,7 @@ const Logo = () => {
   )
 }
 
+//Mobile logo
 const LogoSmall = () => {
   return (
     <div className={styles.logo}>
