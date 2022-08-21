@@ -78,7 +78,6 @@ const Menu = (props) => {
             </div>
           </div>
           <div className="p-3 ">
-            
             <div className="p-3 ">
               <h1 className='text-black-900 dark:text-white'>services</h1>
             </div>
