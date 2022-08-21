@@ -44,7 +44,6 @@ const NarbarItem = ({text = 'TEXT PROP NOT FOUND'}) => {
   )
 }
 
-
 //Theme Icon switch
 const ThemeIcon = () => {
   const [darkTheme, setDarkTheme] = useDarkMode();
@@ -65,17 +64,36 @@ const ThemeIcon = () => {
 };
 
 //menu
-const MenuBackground = (props) => {
-  return (
-  <div className={styles.mobile}>
-    <div className='h-[100vh] w-[100vw] fixed' onClick={props.onClick}></div>
-  </div>
-  )
-}
 const Menu = (props) => {
   return (
   <div className={styles.mobile}>
-    <div className='h-[100vh] w-[100vw] bg-gray-800 fixed' onClick={props.onClick}>Menu test</div>
+    <div className='h-[100vh] w-[100vw] z-50 fixed'>
+      <div className='absolute left-[49vw] w-[51vw] h-[100vh] bg-white dark:bg-black-900 ' >
+        <div className="flex flex-col">
+          <div className="p-3">
+            <svg width="24" height="24" viewBox="0 0 10 10" fill="none"><path d="M4.35207 1.58464C4.58926 1.00454 5.41074 1.00454 5.64793 1.58464L6.61785 3.95678C6.64181 4.01538 6.67362 4.07046 6.71239 4.12051L8.28175 6.14656C8.66554 6.64202 8.2548 7.35344 7.63382 7.2688L5.09453 6.92271C5.0318 6.91416 4.9682 6.91416 4.90547 6.92271L2.36618 7.2688C1.7452 7.35344 1.33446 6.64202 1.71825 6.14656L3.28761 4.12051C3.32638 4.07046 3.35819 4.01538 3.38215 3.95678L4.35207 1.58464Z" fill="#FF6884"/><rect x="4" y="4" width="2" height="2" rx="1" fill="white"/></svg>
+          </div>
+          <div className="p-3">
+            <ThemeIcon/>
+            <h1 className='text-black-900 dark:text-white'>Test</h1>
+            <h1 className='text-black-900 dark:text-white'>Test</h1>
+            <h1 className='text-black-900 dark:text-white'>Test</h1>
+            <h1 className='text-black-900 dark:text-white'>Test</h1>
+            <h1 className='text-black-900 dark:text-white'>Test</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  )
+}
+
+//menu
+const MenuBackground = (props) => {
+  return (
+    <div className={styles.mobile} >
+      <div className='h-[100vh] w-[50vw] z-50 fixed' onClick={props.onClick} >
+    </div>
   </div>
   )
 }
@@ -83,7 +101,6 @@ const Menu = (props) => {
 const Navbar = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
-  
   function menuHandler() {
     setMenuIsOpen(true);
   }
@@ -118,7 +135,7 @@ const Navbar = () => {
 
   {/*mobile*/}
     {/*Menu*/}
-    {menuIsOpen && <Menu onClick={closeMenuHandler}/>}
+    {menuIsOpen && <Menu onClick={closeMenuHandler} />}
     {menuIsOpen && <MenuBackground onClick={closeMenuHandler}/>}
     <div className={styles.mobile}>
         <nav className='py-2 flex flex-row justify-between bg-white dark:bg-black-900'>
@@ -127,7 +144,7 @@ const Navbar = () => {
           </div>
           <div className="flex">
             <button className="bg-red-light h-auto w-auto rounded-full hover:rounded-xl p-[7px] mr-4 cursor-pointer transition-all  ease-in-out" onClick={menuHandler}>
-              <IoMenuOutline size='24' className='text-black' />
+              <IoMenuOutline size='24' className='text-black dark:text-white' />
             </button>
           </div>
         </nav>
