@@ -133,8 +133,7 @@ const Navbar = () => {
       <hr className={styles.linebreak} />
     </div>
 
-  {/*mobile*/}
-    {/*Menu*/}
+  {/*Mobile Menu*/}
     {menuIsOpen && <Menu onClick={closeMenuHandler} />}
     {menuIsOpen && <MenuBackground onClick={closeMenuHandler}/>}
     <div className={styles.mobile}>
