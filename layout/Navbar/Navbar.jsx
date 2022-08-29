@@ -84,9 +84,6 @@ const Menu = (props) => {
           </div>
           <div className="p-3 ">
             <div className="p-3 ">
-              <h1 className='text-black-900 dark:text-white'>services</h1>
-            </div>
-            <div className="p-3 ">
               <h1 className='text-black-900 dark:text-white'>expertise</h1>
             </div>
             <div className="p-3 ">
@@ -141,7 +138,6 @@ const Navbar = () => {
         <div className="flex">
           <Logo />
             <div className={styles.narbaritems}>
-              <NarbarItem text="services"/>
               <NarbarItem text="expertise"/>
               <NarbarItem text="blog"/>
               <NarbarItem text="about"/>

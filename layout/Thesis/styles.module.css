@@ -1,5 +1,5 @@
 .container {
-    @apply h-auto pb-0
+    @apply h-auto pb-0 select-none
 }
 
 .image {
@@ -15,15 +15,41 @@
 }
 
 .textcontainer {   
-    @apply  w-[50vw] pt-16
+    @apply  w-[50vw] my-auto
+}
+
+.header {
+    background: linear-gradient(to right, #FF6884 0%, #cc536a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pink {
+    background: linear-gradient(to right, #FF6884 0%, #cc536a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.blue {
+    background: linear-gradient(to left, #6c63ff 0%, #564fcc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.under {
+    margin: 0px;
+    border-bottom: 3px solid;
+    background: transparent;
+    border-image: linear-gradient(45deg, #FF6884, #6c63ff) 1;
+    border-radius: 5px
 }
 
 .text {
-    @apply text-5xl font-semibold
+    @apply text-7xl font-semibold 
 }
 
 .button {
-    @apply border-2 p-3 mt-4 rounded-lg shadow-lg border-blue
+    @apply border-2 p-3 mt-4 rounded-lg shadow-lg border-black-900  hover:bg-blue transition-all hover:text-white
 }
 
 @media only screen and (max-width: 1200px) {
@@ -40,3 +66,4 @@
         @apply text-2xl
     }
 }
+

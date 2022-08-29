@@ -40,3 +40,8 @@ a {
     border-radius: 1000px;
     border: 0.25vw solid white;
   }
+
+  ::selection {
+    background: #ff68845b;
+  }
+  

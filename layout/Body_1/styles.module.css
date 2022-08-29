@@ -1,0 +1,56 @@
+.container {
+    @apply h-auto pb-0
+}
+
+.image {
+    @apply mt-24 ml-16 mr-16 w-[50vw]
+}
+
+.flexbox {
+    @apply flex flex-col
+}
+
+.imageSrc {
+    @apply p-1 w-[500px]
+}
+
+.header {   
+    background: linear-gradient(to right, #6C63FF 0%, gray 50%, #FF6884 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @apply  w-[100vw] pt-16
+}
+
+.textcontainer {   
+    @apply  w-[50vw] pt-16
+}
+
+.svg {
+    @apply  w-[50vw]
+}
+
+.text {
+    @apply text-5xl font-semibold mt-12 text-center
+}
+
+.button {
+    @apply border-2 p-3 mt-4 rounded-lg shadow-lg border-blue
+}
+
+@media only screen and (max-width: 1200px) {
+    .flexbox {
+        @apply flex flex-col
+    }
+    .textcontainer {   
+        @apply  w-[100vw] mx-auto p-8
+    }
+    .image {
+        @apply w-[100vw] m-1
+    }
+    .text {
+        @apply text-2xl
+    }
+    .svg {
+        @apply  w-[50vw]
+    }
+}
