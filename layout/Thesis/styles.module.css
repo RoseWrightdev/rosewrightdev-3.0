@@ -45,11 +45,11 @@
 }
 
 .text {
-    @apply text-7xl font-semibold 
+    @apply text-5xl font-semibold 
 }
 
 .button {
-    @apply border-[1px] p-4 mt-4 rounded-lg shadow-lg border-black-500  hover:bg-black-900 transition-all hover:text-white font-medium
+    @apply border-[1px] p-4 mt-4 rounded-xl shadow-lg border-black-500  hover:bg-black-900 transition-all hover:text-white font-medium
 }
 
 @media only screen and (max-width: 1200px) {
@@ -57,7 +57,7 @@
         @apply flex flex-col-reverse
     }
     .textcontainer {   
-        @apply  w-[100vw] mx-auto p-8 border-0
+        @apply  w-auto mx-auto p-8 border-0 m-5
     }
     .image {
         @apply w-[100vw] m-1

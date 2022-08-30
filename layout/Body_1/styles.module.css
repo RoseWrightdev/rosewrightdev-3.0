@@ -2,59 +2,39 @@
     @apply h-auto pb-0
 }
 
-.svgcontainer{
-    @apply p-10
+.tech {
+    @apply flex  justify-center mt-10
 }
 
-.image {
-    @apply mt-24 ml-16 mr-16 w-[50vw]
+.techimage {
+    @apply p-5 shadow-xl rounded-3xl w-[40vw] bg-white m-5
+}
+
+.svgcontainer{
+    @apply p-10 flex
 }
 
 .flexbox {
     @apply flex flex-col
 }
 
-.imageSrc {
-    @apply p-1 w-[500px]
-}
-
-.header {   
-    background: linear-gradient(to right, #6C63FF 0%, gray 50%, #FF6884 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    @apply  w-[100vw] pt-16
-}
-
-.textcontainer {   
-    @apply  w-[50vw] pt-16
-}
-
-.svg {
-    @apply  w-[50vw]
-}
-
-.text {
-    @apply text-5xl font-semibold mt-12 text-center
-}
-
-.button {
-    @apply border-2 p-3 mt-4 rounded-lg shadow-lg border-blue
+.blueback {
+    background-image: url(./images/blueback.png);
+    clip-path: 
+      polygon(
+        0% 5vw, 
+        5vw 0%, 
+        calc(100% - 5vw) 0%, 
+        100% 5vw, 
+        100% calc(100% - 5vw), 
+        calc(100% - 5vw) 100%, 
+        5vw 100%, 
+        0% calc(100% - 5vw)
+      );
 }
 
 @media only screen and (max-width: 1200px) {
     .flexbox {
         @apply flex flex-col
-    }
-    .textcontainer {   
-        @apply  w-[100vw] mx-auto p-8
-    }
-    .image {
-        @apply w-[100vw] m-1
-    }
-    .text {
-        @apply text-2xl
-    }
-    .svg {
-        @apply  w-[50vw]
     }
 }
