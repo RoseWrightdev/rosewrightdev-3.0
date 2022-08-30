@@ -7,7 +7,7 @@
 }
 
 .techimage {
-    @apply p-5 shadow-xl rounded-3xl w-[40vw] bg-white m-5
+    @apply p-[1.5vh] shadow-xl rounded-3xl w-[50vw] bg-white m-[1.5vh] 
 }
 
 .svgcontainer{
@@ -31,9 +31,20 @@
         5vw 100%, 
         0% calc(100% - 5vw)
       );
+      @apply mx-auto
+}
+
+.header {
+    background: linear-gradient(to right, #FF6884 0%, #cc536a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @apply text-center pt-20 text-5xl font-semibold 
 }
 
 @media only screen and (max-width: 1200px) {
+    .header{
+        @apply text-2xl pt-10
+    }
     .flexbox {
         @apply flex flex-col
     }
