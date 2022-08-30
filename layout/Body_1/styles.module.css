@@ -2,6 +2,10 @@
     @apply h-auto pb-0
 }
 
+.svgcontainer{
+    @apply p-10
+}
+
 .image {
     @apply mt-24 ml-16 mr-16 w-[50vw]
 }
