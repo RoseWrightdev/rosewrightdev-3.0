@@ -7,7 +7,18 @@
 }
 
 .techimage {
-    @apply p-[1.5vh] shadow-xl rounded-3xl w-[50vw] bg-white m-[1.5vh] 
+    clip-path: 
+    polygon(
+      0% 2.5vw, 
+      2.5vw 0%, 
+      calc(100% - 2.5vw) 0%, 
+      100% 2.5vw, 
+      100% calc(100% - 2.5vw), 
+      calc(100% - 2.5vw) 100%, 
+      2.5vw 100%, 
+      0% calc(100% - 2.5vw)
+    );
+    @apply p-[1.5vh] max-w-[80vw] min-w-[50vw] bg-white m-[5vh]
 }
 
 .svgcontainer{
@@ -22,14 +33,14 @@
     background-image: url(./images/blueback.png);
     clip-path: 
       polygon(
-        0% 5vw, 
-        5vw 0%, 
-        calc(100% - 5vw) 0%, 
-        100% 5vw, 
-        100% calc(100% - 5vw), 
-        calc(100% - 5vw) 100%, 
-        5vw 100%, 
-        0% calc(100% - 5vw)
+        0% 4vw, 
+        4vw 0%, 
+        calc(100% - 4vw) 0%, 
+        100% 4vw, 
+        100% calc(100% - 4vw), 
+        calc(100% - 4vw) 100%, 
+        4vw 100%, 
+        0% calc(100% - 4vw)
       );
       @apply mx-auto
 }
@@ -38,14 +49,18 @@
     background: linear-gradient(to right, #FF6884 0%, #cc536a 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    @apply text-center pt-20 text-5xl font-semibold 
+    @apply text-center text-5xl font-semibold py-3
 }
 
 @media only screen and (max-width: 1200px) {
     .header{
-        @apply text-2xl pt-10
+        @apply text-2xl
     }
     .flexbox {
         @apply flex flex-col
     }
+    .techimage {
+        @apply min-w-[80vw] m-3
+    }
+
 }
