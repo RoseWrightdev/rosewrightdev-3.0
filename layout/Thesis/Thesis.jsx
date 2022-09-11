@@ -41,7 +41,6 @@ const Thesis = () => {
         </div>
       </div>
     </Container>
-    <hr/>
     </span>
   )
 }

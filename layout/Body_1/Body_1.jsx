@@ -14,8 +14,11 @@ import next from './images/next.png'
 import tailwindcss from './images/tailwindcss.png'
 import twlogo from './images/twlogo.png'
 import spline from './images/spline.png'
-import spline3 from './images/spline3.png'
-import blueback from './images/blueback.png'
+import figma from './images/figma.png'
+import Swhite from './images/Swhite.png'
+import pages from './images/pages.png'
+import html from './images/html.png'
+import blueback from './images/figma.png'
 
 const nextImg = <Image src={next} alt='test' layout="responsive" />;
 const twImg = <Image src={twlogo} alt='test' layout="responsive"/>;
@@ -84,18 +87,18 @@ const Body_1 = () => {
       <div className={'h-auto bg-gray-800 ' }>
           <div className='flex justify-center'>
             <div className={'p-1 rounded-lg  m-5 font-semibold text-4xl ' }>
-              <h1 className={'p-5 rounded-lg ' + styles.frosted}> <span className={styles.header}> Working in  enterprise techologies like...</span></h1>
+              <h1 className={'p-5 rounded-lg bg-white shadow-md '}> <span className={styles.header}> Working in  enterprise techologies like...</span></h1>
             </div>
           </div>
         </div>
         <section className="wrapper">
           <ul className="column__list">
             <Card src={twlogo}/>
-            <Card src={twlogo}/>
-            <Card src={twlogo}/>
-            <Card src={twlogo}/>
-            <Card src={twlogo}/>
-            <Card src={twlogo}/>
+            <Card src={next}/>
+            <Card src={Swhite}/>
+            <Card src={figma}/>
+            <Card src={pages}/>
+            <Card src={html}/>
           </ul>
         </section>
     </span>
