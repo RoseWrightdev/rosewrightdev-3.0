@@ -1,12 +1,19 @@
-.container {
-    @apply h-auto pb-0
-}
-
 .tech {
     @apply flex  justify-center mt-10
 }
 
+.parent {
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
+  grid-gap: .5rem;
+  align-items: flex-start;
+  /* Uncomment these lines if you want to have the standard Trello behavior instead of the column wrapping */
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(460px, 1fr);
+    }
+
 .techimage {
+    /*
     clip-path: 
     polygon(
       0% 2.5vw, 
@@ -18,7 +25,8 @@
       2.5vw 100%, 
       0% calc(100% - 2.5vw)
     );
-    @apply p-[1.5vh] max-w-[80vw] min-w-[50vw] bg-white m-[5vh]
+    */
+    @apply p-2 max-w-[85vw] min-w-[40vw] bg-white m-3 rounded-3xl
 }
 
 .svgcontainer{
@@ -30,7 +38,7 @@
 }
 
 .blueback {
-    background-image: url(./images/blueback.png);
+    background-image: url(./images/blueback.png); 
     clip-path: 
       polygon(
         0% 4vw, 
@@ -42,19 +50,31 @@
         4vw 100%, 
         0% calc(100% - 4vw)
       );
+    
+
+      @apply mx-auto rounded-3xl
+}
+
+.redback {
+    background-image: url(./images/redback.png);
+
       @apply mx-auto
 }
 
+.frosted{
+    background-color: rgba(255, 255, 255, 0.7);  
+    backdrop-filter: blur(7px);
+    @apply m-5
+}
+
+
 .header {
-    background: linear-gradient(to right, #FF6884 0%, #cc536a 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    @apply text-center text-5xl font-semibold py-3
+@apply text-black-900
 }
 
 @media only screen and (max-width: 1200px) {
     .header{
-        @apply text-2xl
+        @apply text-3xl
     }
     .flexbox {
         @apply flex flex-col
@@ -62,5 +82,4 @@
     .techimage {
         @apply min-w-[80vw] m-3
     }
-
 }

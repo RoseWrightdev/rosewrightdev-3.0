@@ -41,8 +41,7 @@ const Thesis = () => {
         </div>
       </div>
     </Container>
-    <LightSpikes/>
-    <DarkSpikes/>
+    <hr/>
     </span>
   )
 }
