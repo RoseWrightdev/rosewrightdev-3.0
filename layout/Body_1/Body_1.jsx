@@ -11,14 +11,13 @@ import TWSvg from './Svgs/TWSvg'
 
 //images
 import next from './images/next.png'
-import tailwindcss from './images/tailwindcss.png'
 import twlogo from './images/twlogo.png'
-import spline from './images/spline.png'
 import figma from './images/figma.png'
 import Swhite from './images/Swhite.png'
 import pages from './images/pages.png'
 import html from './images/html.png'
-import blueback from './images/figma.png'
+import gimp from './images/gimp.jpg'
+import lw from './images/lw.jpg'
 
 const nextImg = <Image src={next} alt='test' layout="responsive" />;
 const twImg = <Image src={twlogo} alt='test' layout="responsive"/>;
@@ -39,7 +38,7 @@ const Card = (props) => {
   return (
     <li className="column__item">
       <div className="column__title--wrapper">
-        <h2>Frontend</h2>
+        <h2>{props.title}</h2>
         <i className="fas fa-ellipsis-h"></i>
       </div>
       <ul className="card__list">
@@ -56,31 +55,6 @@ const Card = (props) => {
   )
 }
 
-const Cards = (props) => {
-  return (
-    <section className="wrapper">
-  <ul className="column__list">
-    <li className="column__item">
-      <div className="column__title--wrapper">
-        <h2>Frontend</h2>
-        <i className="fas fa-ellipsis-h"></i>
-      </div>
-      <ul className="card__list">
-        <li className="card__item">
-         <span className="card__tag card__tag--design">Design</span>
-         <Image src={twlogo} alt='test' layout="responsive"/> 
-          <h6 className="card__title"></h6>
-        </li>
-      </ul>
-      <div className="column__item--cta">
-        <h4>learn more</h4>
-      </div>
-    </li>
-  </ul>
-</section>
-  )
-}
-
 const Body_1 = () => {
    return (
     <span>
@@ -93,12 +67,14 @@ const Body_1 = () => {
         </div>
         <section className="wrapper">
           <ul className="column__list">
-            <Card src={twlogo}/>
-            <Card src={next}/>
-            <Card src={Swhite}/>
-            <Card src={figma}/>
-            <Card src={pages}/>
-            <Card src={html}/>
+            <Card src={twlogo} title='Tailwind'/>
+            <Card src={next} title='Next.js'/>
+            <Card src={Swhite} title='Spline'/>
+            <Card src={figma} title='Figma'/>
+            <Card src={pages} title='Github Pages'/>
+            <Card src={html} title='JavaScript, HTML, CSS'/>
+            <Card src={gimp} title='Gimp'/>
+            <Card src={lw} title='LightWorks'/>
           </ul>
         </section>
     </span>
