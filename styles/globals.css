@@ -121,7 +121,7 @@ a {
   padding: .1rem .5rem;
   border-radius: .25rem;
   font-weight: 700;
-  color: white;
+  color: black;
   margin-bottom: .75rem;
   display: inline-block;
 }
@@ -133,28 +133,87 @@ a {
 
 /* sticker colors */
 
-.card__tag--design {
-  background-color: #61bd4f;
+.card__tag--green {
+  background-color: #63ff6c;
 }
 
-.card__tag--browser {
-  background-color: #c377e0;
+.card__tag--purple {
+  background-color: 	#ba63ff;
 }
 
-.card__tag--mobile {
-  background-color: #f2d600;
+.card__tag--yellow {
+  background-color: #f6ff63
+  ;
 }
 
-.card__tag--high {
-  background-color: #eb5a46;
+.card__tag--red {
+  background-color: #FF6884;
 }
 
-.card__tag--low {
-  background-color: #00c2e0;
+.card__tag--blue {
+  background-color: #6C63FF;
+}
+.card__tag--black {
+  background-color: #2F2E41;
+  color: white;
+}
+
+/* sticker colors */
+
+.card__tag--green2 {
+  background-color: #63ff6c;
+}
+
+.card__tag--purple2 {
+  background-color: 	#ba63ff;
+}
+
+.card__tag--yellow2 {
+  background-color: #f6ff63
+  ;
+}
+
+.card__tag--red2 {
+  background-color: #FF6884;
+}
+
+.card__tag--blue2 {
+  background-color: #6C63FF;
+}
+.card__tag--black2 {
+  background-color: #2F2E41;
+  color: white;
+}
+
+/* sticker colors */
+
+.card__tag--green3 {
+  background-color: #63ff6c;
+}
+
+.card__tag--purple3 {
+  background-color: 	#ba63ff;
+}
+
+.card__tag--yellow3 {
+  background-color: #f6ff63
+  ;
+}
+
+.card__tag--red3 {
+  background-color: #FF6884;
+}
+
+.card__tag--blue3 {
+  background-color: #6C63FF;
+}
+.card__tag--black3 {
+  background-color: #2F2E41;
+  color: white;
 }
 
 .card__title {
-  color: #17394d;
+  color: #2F2E41;
   margin-bottom: .75rem;
 }
 

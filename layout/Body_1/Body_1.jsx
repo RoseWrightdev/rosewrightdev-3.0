@@ -19,21 +19,6 @@ import html from './images/html.png'
 import gimp from './images/gimp.jpg'
 import lw from './images/lw.jpg'
 
-const nextImg = <Image src={next} alt='test' layout="responsive" />;
-const twImg = <Image src={twlogo} alt='test' layout="responsive"/>;
-
-const Slide = (props) => {
-  return (
-    <div className='py-5 mx-auto'>
-      <div className={'flex align-center justify-center mx-auto rounded-[32px] ' + styles.frosted}>
-        <div className={' ' + styles.techimage}>
-          {props.pic}
-        </div>
-      </div>
-    </div>
-  )
-}
-
 const Card = (props) => {
   return (
     <li className="column__item">
@@ -43,8 +28,11 @@ const Card = (props) => {
       </div>
       <ul className="card__list">
         <li className="card__item">
-         <span className="card__tag card__tag--design">Design</span>
-         <Image src={props.src} alt='test' layout="responsive"/> 
+         <span className={"card__tag card__tag--" + props.color}>{props.tag}</span>
+         <span className={"card__tag card__tag--" + props.color2}>{props.tag2}</span>
+         <span className={"card__tag card__tag--" + props.color3}>{props.tag3}</span>
+
+         <Image src={props.src} alt={props.alt} layout="responsive"/> 
           <h6 className="card__title"></h6>
         </li>
       </ul>
@@ -67,14 +55,14 @@ const Body_1 = () => {
         </div>
         <section className="wrapper">
           <ul className="column__list">
-            <Card src={twlogo} title='Tailwind'/>
-            <Card src={next} title='Next.js'/>
-            <Card src={Swhite} title='Spline'/>
-            <Card src={figma} title='Figma'/>
-            <Card src={pages} title='Github Pages'/>
-            <Card src={html} title='JavaScript, HTML, CSS'/>
-            <Card src={gimp} title='Gimp'/>
-            <Card src={lw} title='LightWorks'/>
+            <Card src={twlogo} title='Tailwind' color='black' tag='test' color2='red' tag2='CSS'/>
+            <Card src={next} title='Next.js' color='black' tag='React Framework' />
+            <Card src={Swhite} title='Spline' color='green' tag='3d modeling' />
+            <Card src={figma} title='Figma' color='black' tag='Ux-Ui Design' color2='yellow' tag2='SVG'/>
+            <Card src={pages} title='Github Pages' color='red' tag='git'/>
+            <Card src={html} title='JavaScript, HTML, CSS' color='black' tag='test'/>
+            <Card src={gimp} title='Gimp' color='red' tag='test'/>
+            <Card src={lw} title='LightWorks' color='red' tag='test'/>
           </ul>
         </section>
     </span>
