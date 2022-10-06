@@ -9,15 +9,6 @@ import global from '../global.module.css'
 import NextSvg from './Svgs/NextSvg'
 import TWSvg from './Svgs/TWSvg'
 
-//images
-import next from './images/next.png'
-import twlogo from './images/twlogo.png'
-import figma from './images/figma.png'
-import Swhite from './images/Swhite.png'
-import pages from './images/pages.png'
-import html from './images/html.png'
-import gimp from './images/gimp.jpg'
-import lw from './images/lw.jpg'
 
 const Card = (props) => {
   return (
@@ -31,7 +22,6 @@ const Card = (props) => {
          <span className={"card__tag card__tag--" + props.color}>{props.tag}</span>
          <span className={"card__tag card__tag--" + props.color2}>{props.tag2}</span>
          <span className={"card__tag card__tag--" + props.color3}>{props.tag3}</span>
-
          <Image src={props.src} alt={props.alt} layout="responsive"/> 
           <h6 className="card__title"></h6>
         </li>
@@ -43,10 +33,9 @@ const Card = (props) => {
   )
 }
 
-const Body_1 = () => {
-   return (
-    <span>
-      <div className={'h-auto bg-gray-800 ' }>
+/*
+
+ <div className={'h-auto bg-gray-800 ' }>
           <div className='flex justify-center'>
             <div className={'p-1 rounded-lg  m-5 font-semibold text-4xl ' }>
               <h1 className={'p-5 rounded-lg bg-white shadow-md '}> <span className={styles.header}> Working in  enterprise techologies like...</span></h1>
@@ -55,16 +44,23 @@ const Body_1 = () => {
         </div>
         <section className="wrapper">
           <ul className="column__list">
-            <Card src={twlogo} title='Tailwind' color='black' tag='test' color2='red' tag2='CSS'/>
-            <Card src={next} title='Next.js' color='black' tag='React Framework' />
-            <Card src={Swhite} title='Spline' color='green' tag='3d modeling' />
-            <Card src={figma} title='Figma' color='black' tag='Ux-Ui Design' color2='yellow' tag2='SVG'/>
-            <Card src={pages} title='Github Pages' color='red' tag='git'/>
-            <Card src={html} title='JavaScript, HTML, CSS' color='black' tag='test'/>
-            <Card src={gimp} title='Gimp' color='red' tag='test'/>
-            <Card src={lw} title='LightWorks' color='red' tag='test'/>
+            <Card src={twlogo} title='Tailwind' color='black' tag='CSS framework'/>
+            <Card src={next} title='Next.js' color='black' tag='React Framework' color2='black' tag2='JavaScript' color3='black' tag3='React'/>
+            <Card src={Swhite} title='Spline' color='black' tag='3d modeling' />
+            <Card src={figma} title='Figma' color='black' tag='Ui Design' color2='black' tag2='SVG'/>
+            <Card src={pages} title='Github Pages' color='black' tag='Git'/>
+            <Card src={html} title='JavaScript, HTML, CSS' color='black' tag='The Classics'/>
+            <Card src={gimp} title='Gimp' color='black' tag='Photo Editing'/>
+            <Card src={lw} title='LightWorks' color='black' tag='Video Editing'/>
           </ul>
         </section>
+
+*/
+
+const Body_1 = () => {
+   return (
+    <span>
+     
     </span>
   )
 }

@@ -7,7 +7,7 @@
 }
 
 .flexbox {
-    @apply flex flex-row
+    @apply flex flex-row-reverse
 }
 
 .imageSrc {
@@ -15,7 +15,7 @@
 }
 
 .textcontainer {   
-    @apply  w-[50vw] my-auto p-7 rounded-2xl border-gray-900 m-5 shadow-xl 
+    @apply  w-[50vw] my-auto p-7 rounded-2xl border-gray-900 ml-16 shadow-xl 
 }
 
 
