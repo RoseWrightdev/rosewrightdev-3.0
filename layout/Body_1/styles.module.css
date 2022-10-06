@@ -1,33 +1,3 @@
-.tech {
-    @apply flex  justify-center mt-10
-}
-
-.parent {
-    display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
-  grid-gap: .5rem;
-  align-items: flex-start;
-  /* Uncomment these lines if you want to have the standard Trello behavior instead of the column wrapping */
-  grid-auto-flow: column;
-  grid-auto-columns: minmax(460px, 1fr);
-    }
-
-.techimage {
-    /*
-    clip-path: 
-    polygon(
-      0% 2.5vw, 
-      2.5vw 0%, 
-      calc(100% - 2.5vw) 0%, 
-      100% 2.5vw, 
-      100% calc(100% - 2.5vw), 
-      calc(100% - 2.5vw) 100%, 
-      2.5vw 100%, 
-      0% calc(100% - 2.5vw)
-    );
-    */
-    @apply p-2 max-w-[85vw] min-w-[40vw] bg-white m-3 rounded-3xl
-}
 
 .svgcontainer{
     @apply p-10 flex
@@ -36,37 +6,6 @@
 .flexbox {
     @apply flex flex-col
 }
-
-.blueback {
-    background-image: url(./images/blueback.png); 
-    clip-path: 
-      polygon(
-        0% 4vw, 
-        4vw 0%, 
-        calc(100% - 4vw) 0%, 
-        100% 4vw, 
-        100% calc(100% - 4vw), 
-        calc(100% - 4vw) 100%, 
-        4vw 100%, 
-        0% calc(100% - 4vw)
-      );
-    
-
-      @apply mx-auto rounded-3xl
-}
-
-.redback {
-    background-image: url(./images/redback.png);
-
-      @apply mx-auto
-}
-
-.frosted{
-    background-color: rgba(255, 255, 255, 0.7);  
-    backdrop-filter: blur(7px);
-    @apply m-5
-}
-
 
 .header {
 @apply text-black-900
