@@ -4,6 +4,8 @@ import global from '../global.module.css'
 
 //images
 import Image from 'next/image'
+import Next from './Images/Next.png'
+
 
 //Svgs
 import LightSpikes from './Svgs/DarkSpikes'
@@ -26,7 +28,7 @@ const Thesis = () => {
     <Container>
       <div className={styles.flexbox}>
         <div className={'p-8 '  + styles.image}>
-          <Image  alt='A pink blue and white 3d representaion of a online admin control dashboard.' className={' ' + styles.imageSrc}/>
+          <Image src={Next} alt='pink blue and white 3d representaion of a online admin control dashboard.' className={' ' + styles.imageSrc}/>
         </div>
         <div className={'bg-white dark:bg-black-800 ' + styles.textcontainer}>
           <h1 className={'dark:text-white ' + styles.text}> <span className={'whitespace-nowrap '}> I help people build </span> <br/> <span className={' ' + styles.pink}>interactive</span> and <span className={styles.blue}>compelling</span> <span className={styles.under}>websites!</span></h1>
