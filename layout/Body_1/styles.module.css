@@ -19,7 +19,6 @@
 }
 
 
-
 .pink {
     background: linear-gradient(to right, #FF6884 0%, #cc536a 100%);
     -webkit-background-clip: text;
@@ -37,7 +36,7 @@
     border-bottom: 3px solid;
     background: transparent;
     border-image: linear-gradient(45deg, #FF6884, #6c63ff) 1;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .text {
@@ -62,4 +61,3 @@
         @apply text-2xl
     }
 }
-
