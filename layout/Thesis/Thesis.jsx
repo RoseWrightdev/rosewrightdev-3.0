@@ -6,11 +6,6 @@ import global from '../global.module.css'
 import Image from 'next/image'
 import Next from './Images/Next.png'
 
-
-//Svgs
-import LightSpikes from './Svgs/DarkSpikes'
-import DarkSpikes from './Svgs/LightSpikes'
-
 //Icons
 import { MdArrowDownward } from "react-icons/md";
 

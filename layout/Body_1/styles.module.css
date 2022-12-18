@@ -39,26 +39,6 @@
     transition: all 0.15s ease-out;
   }
 
-.pink {
-    background: linear-gradient(to right, #FF6884 0%, #cc536a 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.blue {
-    background: linear-gradient(to left, #6c63ff 0%, #564fcc 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.under {
-    margin: 0px;
-    border-bottom: 3px solid;
-    background: transparent;
-    border-image: linear-gradient(45deg, #FF6884, #6c63ff) 1;
-    border-radius: 5px;
-}
-
 .text {
     @apply text-5xl font-semibold 
 }
