@@ -18,6 +18,26 @@
     @apply  w-[50vw] my-8 p-7 rounded-2xl m-16
 }
 
+.tabs {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tabs button:disabled {
+    border-bottom: 1px solid;
+  }
+
+  .tabs button:hover {
+        border-bottom: 1px solid;
+      }
+  
+  .tabButton{
+    border: none;
+    cursor: pointer;
+    padding: 30px;
+    width: 100%;
+    transition: all 0.15s ease-out;
+  }
 
 .pink {
     background: linear-gradient(to right, #FF6884 0%, #cc536a 100%);
