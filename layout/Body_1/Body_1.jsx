@@ -19,7 +19,7 @@ const Body_1 = () => {
             tabTitle: 'Javascript',
             title: 'Data Visualization',
             title2: '',
-            content: '',
+            content: '1',
             srcLight: vis,
             srcDark: vis2,
             altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
@@ -29,7 +29,7 @@ const Body_1 = () => {
             tabTitle: 'Next.js',
             title: 'Data Visualization',
             title2: 'with Matplotlib',
-            content: '',
+            content: '2',
             srcLight: vis,
             srcDark: vis2,
             altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
@@ -39,7 +39,7 @@ const Body_1 = () => {
             tabTitle: 'Python',
             title: 'Data Visualization',
             title2: 'with Matplotlib',
-            content: '',
+            content: '3',
             srcLight: vis,
             srcDark: vis2,
             altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
@@ -52,10 +52,12 @@ const Body_1 = () => {
 
     return (
         <span>
-            <div className={'flex justify-between	' + styles.tabs}>
-                {tabs.map((tab, i) =>
-                    <button className={'bg-gray-700 dark:bg-black-600  dark:text-white text-black-900 hover:bg-white disabled:shadow-none disabled:bg-white dark:disabled:bg-black-500 dark:hover:bg-black-500  ' + styles.text2 + ' ' +  styles.tabButton} key={i} id={tab.id} disabled={currentTab === `${tab.id}`} onClick={(handleTabClick)}>{tab.tabTitle}</button>
-                )}
+            <div className='bg-gray-800 dark:bg-black-600'>
+                <div className={'flex justify-between	' + styles.tabs}>
+                    {tabs.map((tab, i) =>
+                        <button className={'select-none bg-gray-800 dark:bg-black-600  dark:text-white text-black-900 hover:bg-white disabled:shadow-none disabled:bg-white dark:disabled:bg-black-500 dark:hover:bg-black-500  ' + styles.text2 + ' ' +  styles.tabButton} key={i} id={tab.id} disabled={currentTab === `${tab.id}`} onClick={(handleTabClick)}>{tab.tabTitle}</button>
+                    )}
+                </div>
             </div>
             <div>
                 {tabs.map((tab, i) =>

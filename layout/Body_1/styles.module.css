@@ -24,23 +24,22 @@
   }
   
   .tabs button:disabled {
-    border-top: 2px solid #a0a0a0;
-    border-right: 2px solid #a0a0a0;
-    border-left: 2px solid #a0a0a0;
-    border-bottom: 2px solid transparent;
+    border-top: 1px solid #a0a0a0;
+    border-right: 1px solid #a0a0a0;
+    border-left: 1px solid #a0a0a0;
+    border-bottom: 1px solid transparent;
+    @apply rounded-t-2xl
 
   }
 
-  .tabs button:hover {
-        border-top: 2px solid #a0a0a0;
-        border-right: 2px solid #a0a0a0;
-        border-left: 2px solid #a0a0a0;
-      }
+  
       .tabs button {
-        border-top: 2px solid transparent;
-        border-right: 2px solid transparent;
-        border-left: 2px solid transparent;
-        border-bottom: 2px solid #a0a0a0;
+        border-top: 1px solid transparent;
+        border-right: 1px solid transparent;
+        border-left: 1px solid transparent;
+        border-bottom: 1px solid #a0a0a0;
+        @apply rounded-t-2xl
+
       }
   
   .tabButton{
