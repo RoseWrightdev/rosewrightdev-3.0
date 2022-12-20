@@ -15,7 +15,7 @@
 }
 
 .textcontainer {   
-    @apply  w-[50vw] my-8 p-7 rounded-2xl border-gray-900 m-16 shadow-xl 
+    @apply  w-[50vw] my-8 p-7 rounded-2xl border-black-700 m-16 border-[1px]
 }
 
 
@@ -45,7 +45,7 @@
 }
 
 .button {
-    @apply border-[1px] p-4 mt-4 rounded-xl shadow-lg border-black-500  hover:bg-black-900 transition-all hover:text-white font-medium
+    @apply border-[1px] p-4 mt-4 rounded-xl border-black-800  hover:bg-black-900 transition-all hover:text-white font-medium
 }
 
 @media only screen and (max-width: 1200px) {

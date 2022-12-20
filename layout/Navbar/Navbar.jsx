@@ -58,11 +58,11 @@ const ThemeIcon = () => {
   return (
     <span onClick={handleMode}>
       {darkTheme ? (
-        <div className="bg-red-light h-auto w-auto rounded-full hover:rounded-xl p-[7px] mr-8 cursor-pointer transition-all  ease-in-out border-[1px] border-red shadow-lg">
+        <div className="bg-red-light h-auto w-auto rounded-full hover:rounded-sm p-[7px] mr-8 cursor-pointer transition-all ease-in-out border-[1px] border-red ">
           <FaSun size='24' className='text-red' />
         </div>
       ) : (
-        <div className="bg-blue-light h-auto w-auto rounded-xl hover:rounded-full p-[7px] mr-8 cursor-pointer transition-all  ease-in-out border-[1px] border-blue shadow-lg">
+        <div className="bg-blue-light h-auto w-auto rounded-full hover:rounded-sm p-[7px] mr-8 cursor-pointer transition-all ease-in-out border-[1px] border-blue ">
           <FaMoon size='24' className='text-blue' />
         </div>
       )}
@@ -77,11 +77,11 @@ const Menu = (props) => {
     <div className='h-[100vh] w-[100vw] z-50 fixed'>
       <div className='absolute left-[49vw] w-[51vw] h-[100vh] bg-white dark:bg-black-900 ' >
         <div className="flex flex-col">
-          <div className="p-3">
+          {/*<div className="p-3">
             <div className="p-3">
               <svg width="30" height="30" viewBox="0 0 10 10" fill="none"><path d="M4.35207 1.58464C4.58926 1.00454 5.41074 1.00454 5.64793 1.58464L6.61785 3.95678C6.64181 4.01538 6.67362 4.07046 6.71239 4.12051L8.28175 6.14656C8.66554 6.64202 8.2548 7.35344 7.63382 7.2688L5.09453 6.92271C5.0318 6.91416 4.9682 6.91416 4.90547 6.92271L2.36618 7.2688C1.7452 7.35344 1.33446 6.64202 1.71825 6.14656L3.28761 4.12051C3.32638 4.07046 3.35819 4.01538 3.38215 3.95678L4.35207 1.58464Z" fill="#FF6884"/><rect x="4" y="4" width="2" height="2" rx="1" fill="white"/></svg>
             </div>
-          </div>
+          </div>*/}
           <div className="p-3 ">
             <div className="p-3 ">
               <h1 className='text-black-900 dark:text-white'>expertise</h1>
@@ -91,9 +91,6 @@ const Menu = (props) => {
             </div>
             <div className="p-3 ">
               <h1 className='text-black-900 dark:text-white'>about</h1>
-            </div>
-            <div className="p-3 ">
-              <h1 className='text-black-900 dark:text-white'>contact</h1>
             </div>
             <div className="p-3 mr-auto">
               <ThemeIcon/>
