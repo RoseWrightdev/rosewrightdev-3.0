@@ -15,7 +15,7 @@
 }
 
 .textcontainer {   
-    @apply  w-[50vw] my-8 p-7 rounded-2xl border-black-700 m-16 border-[1px]
+    @apply  w-[50vw] my-8 p-7 rounded-2xl  m-16 border-[1px]
 }
 
 

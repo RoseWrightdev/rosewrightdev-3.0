@@ -17,6 +17,6 @@ ax.set(xticklabels=[],
        yticklabels=[],
        zticklabels=[])
 
-ax.set_facecolor("#595867")
+ax.set_facecolor("#343346")
 
 plt.show()
