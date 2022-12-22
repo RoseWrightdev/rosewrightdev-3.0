@@ -9,66 +9,29 @@ import global from '../global.module.css'
 //images
 import vis from './images/vis.gif'
 import vis3 from './images/vis3.gif'
+import Cube2 from './images/Cube2.png'
+import Cube from './images/Cube.png'
+import ten from './images/ten.png'
 
 const Body_1 = () => {
     const [currentTab, setCurrentTab] = useState('1');
     const tabs = [
         {
             id: 1,
-            tabTitle: 'Javascript',
-            title: 'Data Visualization',
-            title2: '',
+            tabTitle: 'JavaScript',
+            title: 'Websites using',
+            title2: 'React, Next.js and their Javascipt hooks.',
             content: '1',
-            srcLight: vis,
-            srcDark: vis3,
+            srcLight: ten,
+            srcDark: ten,
             altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
         },
         {
             id: 2,
-            tabTitle: 'Next.js',
-            title: 'Data Visualization',
-            title2: 'with Matplotlib',
-            content: '2',
-            srcLight: vis,
-            srcDark: vis3,
-            altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
-        },
-        {
-            id: 3,
             tabTitle: 'Python',
             title: 'Data Visualization',
-            title2: 'with Matplotlib',
-            content: '3',
-            srcLight: vis,
-            srcDark: vis3,
-            altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
-        },
-        {
-            id: 4,
-            tabTitle: 'Figma',
-            title: 'Data Visualization',
-            title2: 'with Matplotlib',
-            content: '3',
-            srcLight: vis,
-            srcDark: vis3,
-            altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
-        },
-        {
-            id: 5,
-            tabTitle: 'Spline',
-            title: 'Data Visualization',
-            title2: 'with Matplotlib',
-            content: '3',
-            srcLight: vis,
-            srcDark: vis3,
-            altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
-        },
-        {
-            id: 6,
-            tabTitle: 'Spline',
-            title: 'Data Visualization',
-            title2: 'with Matplotlib',
-            content: '3',
+            title2: 'with Matplotlib.',
+            content: '2',
             srcLight: vis,
             srcDark: vis3,
             altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
@@ -100,7 +63,7 @@ const Body_1 = () => {
                                     <Image src={tab.srcLight} alt={tab.altText} className={' ' + styles.imageSrc}/>
                                 </div>
                                 <div className={' ' + styles.textcontainer}>
-                                    <h1 className={'dark:text-white ' + styles.text}><span className={'whitespace-nowrap '}>{tab.title}</span> <br/> {tab.title2}</h1>
+                                    <h1 className={'dark:text-white ' + styles.text}>{tab.title} {tab.title2}</h1>
                                     <br/>
                                 <h2 className={'dark:text-white ' }>{tab.content}</h2>
                                 </div>
