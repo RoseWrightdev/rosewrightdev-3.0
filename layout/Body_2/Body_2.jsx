@@ -10,6 +10,7 @@ import global from '../global.module.css'
 
 import figlight from './images/figlight.png'
 import figdark2 from './images/figdark2.png'
+import maker2 from './images/maker2.gif'
 
 const Body_2 = () => {
     const [currentTab, setCurrentTab] = useState('1');
@@ -27,11 +28,11 @@ const Body_2 = () => {
         {
             id: 2,
             tabTitle: 'Spline',
-            title: '',
+            title: '3d Modeling with Spline',
             title2: '',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
-            srcLight: '',
-            srcDark: '',
+            srcLight: maker2,
+            srcDark: maker2,
             altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
         },
 
