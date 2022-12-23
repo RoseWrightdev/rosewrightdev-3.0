@@ -9,7 +9,7 @@ import global from '../global.module.css'
 //images
 
 import figlight from './images/figlight.png'
-import figdark from './images/figdark.png'
+import figdark2 from './images/figdark2.png'
 
 const Body_2 = () => {
     const [currentTab, setCurrentTab] = useState('1');
@@ -20,7 +20,7 @@ const Body_2 = () => {
             title: 'Modern Vector Illustrations',
             title2: 'with Figma',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
-            srcLight: figdark,
+            srcLight: figdark2,
             srcDark: figlight,
             altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
         },
