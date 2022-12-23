@@ -7,8 +7,7 @@ import styles from './styles.module.css'
 import global from '../global.module.css'
 
 //images
-import vis from './images/vis.gif'
-import vis3 from './images/vis3.gif'
+
 import figlight from './images/figlight.png'
 import figdark from './images/figdark.png'
 
@@ -20,7 +19,7 @@ const Body_2 = () => {
             tabTitle: 'Figma',
             title: 'Modern Vector Illustrations',
             title2: 'with Figma',
-            content: '1',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
             srcLight: figdark,
             srcDark: figlight,
             altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
@@ -30,7 +29,7 @@ const Body_2 = () => {
             tabTitle: 'Spline',
             title: '',
             title2: '',
-            content: '2',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
             srcLight: '',
             srcDark: '',
             altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
@@ -65,7 +64,7 @@ const Body_2 = () => {
                                 <div className={' ' + styles.textcontainer}>
                                     <h1 className={'dark:text-white ' + styles.text}><span className={''}>{tab.title}</span> <br/> {tab.title2}</h1>
                                     <br/>
-                                <h2 className={'dark:text-white ' }>{tab.content}</h2>
+                                <h2 className={'dark:text-white indent-8 ' }>{tab.content}</h2>
                                 </div>
                             </div>
                         </div>

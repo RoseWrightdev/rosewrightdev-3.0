@@ -1,9 +1,9 @@
 .container {
-    @apply h-auto pb-0 select-none
+    @apply h-auto p-0 select-none
 }
 
 .image {
-    @apply mx-16 my-8 w-[50vw]
+    @apply w-[50vw]
 }
 
 .flexbox {
@@ -63,7 +63,7 @@
         @apply flex flex-col-reverse
     }
     .textcontainer {   
-        @apply  w-auto mx-auto p-8 border-0 m-5
+        @apply  w-auto mx-auto border-0 m-5
     }
     .image {
         @apply w-[100vw] m-0

@@ -9,8 +9,7 @@ import global from '../global.module.css'
 //images
 import vis from './images/vis.gif'
 import vis3 from './images/vis3.gif'
-import Cube2 from './images/Cube2.png'
-import Cube from './images/Cube.png'
+
 import ten from './images/ten.png'
 
 const Body_1 = () => {
@@ -21,7 +20,7 @@ const Body_1 = () => {
             tabTitle: 'JavaScript',
             title: 'Websites using',
             title2: 'React, Next.js and their Javascipt hooks.',
-            content: '1',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
             srcLight: ten,
             srcDark: ten,
             altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
@@ -31,7 +30,7 @@ const Body_1 = () => {
             tabTitle: 'Python',
             title: 'Data Visualization',
             title2: 'with Matplotlib.',
-            content: '2',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
             srcLight: vis,
             srcDark: vis3,
             altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
@@ -65,7 +64,7 @@ const Body_1 = () => {
                                 <div className={' ' + styles.textcontainer}>
                                     <h1 className={'dark:text-white ' + styles.text}>{tab.title} {tab.title2}</h1>
                                     <br/>
-                                <h2 className={'dark:text-white ' }>{tab.content}</h2>
+                                <h2 className={'dark:text-white indent-8 ' }>{tab.content}</h2>
                                 </div>
                             </div>
                         </div>
