@@ -9,8 +9,8 @@ import global from '../global.module.css'
 //images
 import vis from './images/vis.gif'
 import vis3 from './images/vis3.gif'
-
 import simple from './images/simple.png'
+import dark from './images/dark.png'
 
 const Body_1 = () => {
     const [currentTab, setCurrentTab] = useState('1');
@@ -22,7 +22,7 @@ const Body_1 = () => {
             title2: 'React, Next.js and their Javascipt hooks.',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
             srcLight: simple,
-            srcDark: simple,
+            srcDark: dark,
             altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
         },
         {

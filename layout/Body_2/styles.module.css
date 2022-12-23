@@ -26,7 +26,7 @@
     border-left: 1px solid #a0a0a0;
     border-bottom: 1px solid transparent;
     text-decoration: underline;
-    text-decoration-color: #FF6884;
+    text-decoration-color: #6C63FF;
     text-underline-offset: 40px;
     @apply rounded-t-2xl
 }
