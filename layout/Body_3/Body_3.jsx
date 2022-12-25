@@ -16,8 +16,8 @@ const Body_3 = () => {
         {
             id: 1,
             tabTitle: 'Three.js',
-            title: 'Websites using',
-            title2: 'React, Next.js and their Javascipt hooks.',
+            title: 'Three.js Animations',
+            title2: '',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
             srcLight: r,
             srcDark: r,
