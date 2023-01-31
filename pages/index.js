@@ -20,8 +20,8 @@ export default function Home() {
         <Body_1 />
         <Body_2 />
         <Body_3 />
-        </main>
         <Conclusion />
+        </main>
       </Layout>
     </div>
   )
