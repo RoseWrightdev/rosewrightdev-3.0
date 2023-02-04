@@ -14,7 +14,7 @@ const Conclusion = () => {
     const tabs = [
         {
             id: 1,
-            tabTitle: 'About',
+            tabTitle: 'Contact',
             title: 'Data Visualization',
             title2: 'with Matplotlib.',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',

@@ -16,7 +16,7 @@ const Body_1 = () => {
     const [currentTab, setCurrentTab] = useState('1');
     const tabs = [
         {
-            id: 1,
+            id: 2,
             tabTitle: 'JavaScript',
             title: 'Websites using',
             title2: 'React, Next.js and their Javascipt hooks.',
@@ -26,7 +26,7 @@ const Body_1 = () => {
             altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
         },
         {
-            id: 2,
+            id: 1,
             tabTitle: 'Python',
             title: 'Data Visualization',
             title2: 'with Matplotlib.',
