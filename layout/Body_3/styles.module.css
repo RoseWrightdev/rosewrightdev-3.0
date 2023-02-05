@@ -7,7 +7,7 @@
 }
 
 .flexbox {
-    @apply flex flex-row
+    @apply flex flex-row-reverse
 }
 
 .imageSrc {
