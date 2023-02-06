@@ -26,7 +26,7 @@ const Body_3 = () => {
         },
         {
             id: 2,
-            tabTitle: 'Animations',
+            tabTitle: 'Physics',
             title: 'Three.js physics Animations',
             title2: '',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
