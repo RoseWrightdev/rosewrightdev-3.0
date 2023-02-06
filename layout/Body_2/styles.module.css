@@ -1,5 +1,4 @@
 .container {
-//background-image: url('./images/figlight.png');
     @apply h-auto pb-0 select-none
 }
 

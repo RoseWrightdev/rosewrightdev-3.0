@@ -8,29 +8,30 @@ import global from '../global.module.css'
 
 //images
 import r from './images/r.gif'
-import more from './images/more.png'
+import MultiSim from './images/MultiSim.png'
 
 const Body_3 = () => {
     const [currentTab, setCurrentTab] = useState('1');
     const tabs = [
+        
         {
             id: 1,
-            tabTitle: 'Three.js',
-            title: 'Three.js Animations',
+            tabTitle: 'Circut Deisgn',
+            title: 'NI Multisim',
             title2: '',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
-            srcLight: r,
-            srcDark: r,
+            srcLight: MultiSim,
+            srcDark: MultiSim,
             altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
         },
         {
             id: 2,
-            tabTitle: 'More',
-            title: 'Data Visualization',
-            title2: 'with Matplotlib.',
+            tabTitle: 'Animations',
+            title: 'Three.js physics Animations',
+            title2: '',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
-            srcLight: more,
-            srcDark: more,
+            srcLight: r,
+            srcDark: r,
             altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
         },
     ];

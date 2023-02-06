@@ -17,8 +17,8 @@ const Body_2 = () => {
     const tabs = [
         {
             id: 1,
-            tabTitle: 'Figma',
-            title: 'Modern Vector Illustrations',
+            tabTitle: 'Illustrations',
+            title: 'Modern .SVG Illustrations',
             title2: 'with Figma',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
             srcLight: figdark2,
@@ -27,7 +27,7 @@ const Body_2 = () => {
         },
         {
             id: 2,
-            tabTitle: 'Spline',
+            tabTitle: '3d models',
             title: '3d Modeling with Spline',
             title2: '',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
