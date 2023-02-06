@@ -84,10 +84,16 @@ const Menu = (props) => {
           </div>*/}
           <div className="p-3 ">
             <div className="p-3 ">
-              <h1 className='text-black-900 dark:text-white'>expertise</h1>
+              <h1 className='text-black-900 dark:text-white'>programming</h1>
             </div>
             <div className="p-3 ">
-              <h1 className='text-black-900 dark:text-white'>blog</h1>
+              <h1 className='text-black-900 dark:text-white'>design</h1>
+            </div>
+            <div className="p-3 ">
+              <h1 className='text-black-900 dark:text-white'>electronics</h1>
+            </div>
+            <div className="p-3 ">
+              <h1 className='text-black-900 dark:text-white'>contact</h1>
             </div>
             <div className="p-3 ">
               <h1 className='text-black-900 dark:text-white'>about</h1>
@@ -135,14 +141,15 @@ const Navbar = () => {
         <div className="flex">
           <Logo />
             <div className={styles.narbaritems}>
-              <NarbarItem text="expertise"/>
-              <NarbarItem text="blog"/>
-              <NarbarItem text="about"/>
+              <NarbarItem text="programming"/>
+              <NarbarItem text="design"/>
+              <NarbarItem text="electronics"/>
+              <NarbarItem text="contact"/>
             </div>
         </div>
         <div className="flex">
           <div className="my-auto mr-4">
-          <NarbarItem text="contact"/>
+          <NarbarItem text="about"/>
           </div>
           <ThemeIcon />
         </div>

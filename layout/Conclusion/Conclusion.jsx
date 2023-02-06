@@ -15,11 +15,11 @@ const Conclusion = () => {
         {
             id: 1,
             tabTitle: 'Contact',
-            title: 'Data Visualization',
-            title2: 'with Matplotlib.',
+            title: '',
+            title2: 'talk to me',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
-            srcLight: more,
-            srcDark: more,
+            srcLight: '',
+            srcDark: '',
             altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
         },
         {
@@ -28,8 +28,8 @@ const Conclusion = () => {
             title: 'Data Visualization',
             title2: 'with Matplotlib.',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
-            srcLight: more,
-            srcDark: more,
+            srcLight: '',
+            srcDark: '',
             altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
         },
     ];
