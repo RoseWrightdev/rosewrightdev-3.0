@@ -1,0 +1,65 @@
+.container {
+    @apply h-auto pb-0 select-none
+}
+
+.image {
+    @apply mt-12 ml-16 mr-16 w-[50vw]
+}
+
+.flexbox {
+    @apply flex flex-row
+}
+
+.imageSrc {
+    @apply p-1 w-[500px]
+}
+
+.textcontainer {   
+    @apply  w-[50vw] my-auto p-7 rounded-2xl  m-16 border-[1px]
+}
+
+
+
+.pink {
+    background: linear-gradient(to right, #FF6884 0%, #cc536a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.blue {
+    background: linear-gradient(to left, #6c63ff 0%, #564fcc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.under {
+    margin: 0px;
+    border-bottom: 3px solid;
+    background: transparent;
+    border-image: linear-gradient(45deg, #FF6884, #6c63ff) 1;
+    border-radius: 5px
+}
+
+.text {
+    @apply text-5xl font-semibold 
+}
+
+.button {
+    @apply border-[1px] p-4 mt-4 rounded-xl border-black-800  hover:bg-black-900 transition-all hover:text-white font-medium
+}
+
+@media only screen and (max-width: 1200px) {
+    .flexbox {
+        @apply flex flex-col-reverse
+    }
+    .textcontainer {   
+        @apply  w-auto mx-auto p-8 border-0 m-5
+    }
+    .image {
+        @apply w-[100vw] m-0
+    }
+    .text {
+        @apply text-2xl
+    }
+}
+
