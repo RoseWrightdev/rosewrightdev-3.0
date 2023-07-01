@@ -7,9 +7,9 @@ import Image from 'next/image'
 import w3 from './Images/w3.gif'
 import dark2 from './Images/dark2.gif'
 
-
 //Icons
 import { MdArrowDownward } from "react-icons/md";
+import Link from 'next/link'
 
 const Container = ({children}) => {
   return (
@@ -34,11 +34,13 @@ const Thesis = () => {
           <h1 className={'dark:text-white ' + styles.text}> <span className={'whitespace-nowrap '}> I help people build </span> <br/> <span className={' ' + styles.pink}>interactive</span> and <span className={styles.blue}>compelling</span> <span className={styles.under}>websites!</span></h1>
           <br/>
           <h2 className={'dark:text-white ' }>I work with a strong focus on simplicity, accessibility <br/> and responsive design.</h2>
+          <Link href="#programming">
           <button className={'dark:border-white ' + styles.button}>
-            <div className='dark:text-white flex'>
-              learn more <div className='my-auto m-1 mr-0 ml-3 font-medium'><MdArrowDownward /></div>
-            </div>
+              <div className='dark:text-white flex'>
+              learn more <span className='my-auto m-1 mr-0 ml-3 font-medium'><MdArrowDownward /></span>
+              </div>
           </button>
+          </Link>
         </div>
       </div>
     </Container>

@@ -8,7 +8,7 @@ import Conclusion from './layout/Conclusion/Conclusion'
 
 export default function Home() {
   return (
-    <div className=''>
+    <div>
       <Head>
         <title>RoseWright.dev</title>
         <meta name="description" content="RoseWright.dev" />

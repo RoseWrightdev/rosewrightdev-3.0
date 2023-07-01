@@ -23,7 +23,7 @@ const Body_2 = () => {
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
             srcLight: figdark2,
             srcDark: figlight2,
-            altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
+            altText: 'An modern abstract illustration which includes vasious colorful shapes all aligned on a grid.',
         },
         {
             id: 2,
@@ -33,7 +33,7 @@ const Body_2 = () => {
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
             srcLight: maker2,
             srcDark: maker2,
-            altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
+            altText: 'A 3d model of a admin dashboad animating as it tracks a mouse cursor.',
         },
 
     ];
@@ -44,7 +44,7 @@ const Body_2 = () => {
 
     return (
         <span>
-            <div className={'bg-gray-800 dark:bg-black-600 ' + styles.container}>
+            <div className={'bg-gray-800 dark:bg-black-600 ' + styles.container} id="design">
                 <div className={'flex justify-between ' + styles.tabs}>
                     {tabs.map((tab, i) =>
                         <button className={'select-none bg-gray-700 dark:bg-black-700  dark:text-white text-black-900 hover:bg-white disabled:shadow-none disabled:bg-white dark:disabled:bg-black-800 dark:hover:bg-black-800 transition-all ' + styles.text2 + ' ' +  styles.tabButton} key={i} id={tab.id} disabled={currentTab === `${tab.id}`} onClick={(handleTabClick)}>{tab.tabTitle}</button>
