@@ -11,6 +11,12 @@ import dark2 from './Images/dark2.gif'
 import { MdArrowDownward } from "react-icons/md";
 import Link from 'next/link'
 
+import { Suspense } from 'react';
+
+const Loading = () => {
+  return <div className='text-9xl'>Test</div>
+}
+
 const Container = ({children}) => {
   return (
     <div className={'bg-gray-800 dark:bg-black-600 ' + styles.container}>
@@ -24,12 +30,14 @@ const Thesis = () => {
     <span>
     <Container>
       <div className={styles.flexbox}>
+      <Suspense fallback={<Loading />}>
         <div className={'p-8 dark:hidden '  + styles.image}>
         <Image src={w3} alt='pink blue and white 3d representaion of a online admin control dashboard.' className={' ' + styles.imageSrc}/>
         </div>
         <div className={'p-8 hidden dark:block '  + styles.image}>
         <Image src={dark2} alt='pink blue and white 3d representaion of a online admin control dashboard.' className={' ' + styles.imageSrc}/>
         </div>
+      </Suspense>
         <div className={'bg-white dark:bg-black-800 border-black-700 dark:border-white ' + styles.textcontainer}>
           <h1 className={'dark:text-white ' + styles.text}> <span className={'whitespace-nowrap '}> I help people build </span> <br/> <span className={' ' + styles.pink}>interactive</span> and <span className={styles.blue}>compelling</span> <span className={styles.under}>websites!</span></h1>
           <br/>
