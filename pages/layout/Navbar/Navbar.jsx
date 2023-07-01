@@ -12,6 +12,7 @@ import { AiOutlineClose } from "react-icons/ai";
 //Hooks
 import {useDarkMode} from '../../hooks/useDarkMode';
 import {useState} from 'react';
+import Link from "next/link";
 
 //RoseWright.dev Logo
 const Logo = () => {
@@ -45,8 +46,10 @@ const LogoSmall = () => {
 //Narbar text Items
 const NarbarItem = ({text = 'TEXT PROP NOT FOUND'}) => {
   return (
-    <div className='my-auto m-[14px] text-sm font-light text-black dark:text-white'>
+    <div className='my-auto m-[16px] text-sm font-light text-black dark:text-white'>
+    <Link  href={"#" + text}>
       {text}
+    </Link>
     </div>
   )
 }

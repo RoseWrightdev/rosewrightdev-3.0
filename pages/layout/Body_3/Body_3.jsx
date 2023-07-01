@@ -42,7 +42,7 @@ const Body_3 = () => {
 
     return (
         <span>
-            <div className='bg-gray-800 dark:bg-black-600'>
+            <div className='bg-gray-800 dark:bg-black-600' id='electronics'>
                 <div className={'flex justify-between ' + styles.tabs}>
                     {tabs.map((tab, i) =>
                         <button className={'select-none bg-gray-700 dark:bg-black-700  dark:text-white text-black-900 hover:bg-white disabled:shadow-none disabled:bg-white dark:disabled:bg-black-800 dark:hover:bg-black-800 transition-all ' + styles.text2 + ' ' +  styles.tabButton} key={i} id={tab.id} disabled={currentTab === `${tab.id}`} onClick={(handleTabClick)}>{tab.tabTitle}</button>
