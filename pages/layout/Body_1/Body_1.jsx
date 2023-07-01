@@ -19,11 +19,11 @@ const Body_1 = () => {
             id: 1,
             tabTitle: 'Programming',
             title: 'Websites using',
-            title2: 'React, Next.js and their Javascipt hooks.',
+            title2: 'React, Next.js and their hooks.',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
             srcLight: simple,
             srcDark: simpleDark,
-            altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',
+            altText: 'A cube sitting on top of dark rectangle. The cube has 3 sides showing the logos and colors of React, Nextjs and Javascript.',
         },
         {
             id: 2,
