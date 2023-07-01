@@ -10,9 +10,47 @@ import {IoMenuOutline} from "react-icons/io5";
 import { AiOutlineClose } from "react-icons/ai";
 
 //Hooks
-import {useDarkMode} from '../../hooks/useDarkMode';
-import {useState} from 'react';
 import Link from "next/link";
+import { useEffect, useState } from 'react';
+
+//Darkmode hook. If something breaks it was most likely this. Pay close attention!
+const useLocalStorage = (key, initialValue) => {
+  const [storedValue, setStoredValue] = useState(() => {
+    try {
+      const item = window.localStorage.getItem(key);
+      return item ? JSON.parse(item) : initialValue;
+    } catch (error) {
+      console.log(error);
+      return initialValue;
+    }
+  });
+
+  const setValue = (value) => {
+    try {
+      const valueToStore = value instanceof Function ? value(storedValue) : value;
+
+      setStoredValue(valueToStore);
+
+      window.localStorage.setItem(key, JSON.stringify(valueToStore));
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  return [storedValue, setValue];
+};
+
+const useDarkMode = () => {
+  const [enabled, setEnabled] = useLocalStorage('dark-theme');
+  const isEnabled = typeof enabledState === 'undefined' && enabled;
+  useEffect(() => {
+    const className = 'dark';
+    const bodyClass = window.document.body.classList;
+
+    isEnabled ? bodyClass.add(className) : bodyClass.remove(className);
+  }, [enabled, isEnabled]);
+
+  return [enabled, setEnabled];
+};
 
 //RoseWright.dev Logo
 const Logo = () => {
