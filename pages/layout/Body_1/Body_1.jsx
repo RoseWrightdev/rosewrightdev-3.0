@@ -20,7 +20,7 @@ const Body_1 = () => {
             tabTitle: 'Programming',
             title: 'Websites using',
             title2: 'React, Next.js and their hooks.',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
+            content: 'Whether it be Typescript, Java, or C++, I\'m always tinkering with something new, and I don\'t plan on stopping anytime soon. I\'ve made a lot over the years: physics simulations, 3d models, animations, logos, gifs, wireframes, scalable vector graphics, countless "RoseWright.dev" websites, an online flag maker, and more. ',
             srcLight: simple,
             srcDark: simpleDark,
             altText: 'A cube sitting on top of dark rectangle. The cube has 3 sides showing the logos and colors of React, Nextjs and Javascript.',

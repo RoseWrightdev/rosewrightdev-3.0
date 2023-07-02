@@ -22,9 +22,9 @@ const Conclusion = () => {
         {
             id: 2,
             tabTitle: 'About',
-            title: 'Data Visualization',
-            title2: 'with Matplotlib.',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
+            title: "Learning, Tinkering and Exploring",
+            title2: '',
+            content: 'Ive dedicated my life to learning, tinkering and exploring. With an odd blend of the humanities and STEM, I found my home in environmentalism. Before long, I joined my school\'s environmental club. There I learned about the real-life impacts of the climate crisis and witnessed what it meant to make a difference. One day, guest speakers from the international environmental group "Wildlife Forever" came to speak to our group about an opportunity. I jumped on it. One thing lead to another, and I ended up working there on their digital infrastructure. I am extremely grateful to Wildlife Forever for letting me to get my start.',
         },
     ];
 
@@ -33,7 +33,7 @@ const Conclusion = () => {
     }
 
     return (
-        <span >
+        <span>
             <div className='bg-gray-800 dark:bg-black-600' id='contact'>
                 <div className={'flex justify-between ' + styles.tabs}>
                     {tabs.map((tab, i) =>
