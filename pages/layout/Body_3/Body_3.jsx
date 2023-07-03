@@ -13,19 +13,8 @@ import MultiSim from './images/MultiSim.png'
 const Body_3 = () => {
     const [currentTab, setCurrentTab] = useState('1');
     const tabs = [
-        
         {
             id: 1,
-            tabTitle: 'Circut Deisgn',
-            title: 'NI Multisim',
-            title2: '',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
-            srcLight: MultiSim,
-            srcDark: MultiSim,
-            altText: 'An abstract colorful image of a circut deisgn.',
-        },
-        {
-            id: 2,
             tabTitle: 'Physics',
             title: 'Three.js physics Animations',
             title2: '',
@@ -33,6 +22,16 @@ const Body_3 = () => {
             srcLight: r,
             srcDark: r,
             altText: 'Six cubes float to the ground moon light gravity then suddenly bounce in all directions.',
+        },    
+        {
+            id: 2,
+            tabTitle: 'Circut Deisgn',
+            title: 'NI Multisim',
+            title2: '',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
+            srcLight: MultiSim,
+            srcDark: MultiSim,
+            altText: 'An abstract colorful image of a circut deisgn.',
         },
     ];
 

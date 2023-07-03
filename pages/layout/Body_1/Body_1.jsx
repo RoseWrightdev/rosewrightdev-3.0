@@ -10,7 +10,10 @@ import global from '../global.module.css'
 import vis from './images/vis.gif'
 import vis3 from './images/vis3.gif'
 import simple from './images/simple.jpg'
-import simpleDark from './images/simpleDark.jpg'
+import simpleDark from './images/simpleDark.gif'
+import finalDark from './images/finalDark.gif'
+import finalLight from './images/finalLight.gif'
+
 
 const Body_1 = () => {
     const [currentTab, setCurrentTab] = useState('1');
@@ -21,8 +24,8 @@ const Body_1 = () => {
             title: 'Websites using',
             title2: 'React, Next.js and their hooks.',
             content: 'Whether it be Typescript, Java, or C++, I\'m always tinkering with something new, and I don\'t plan on stopping anytime soon. I\'ve made a lot over the years: physics simulations, 3d models, animations, logos, gifs, wireframes, scalable vector graphics, countless "RoseWright.dev" websites, an online flag maker, and more. ',
-            srcLight: simple,
-            srcDark: simpleDark,
+            srcLight: finalLight,
+            srcDark: finalDark,
             altText: 'A cube sitting on top of dark rectangle. The cube has 3 sides showing the logos and colors of React, Nextjs and Javascript.',
         },
         {

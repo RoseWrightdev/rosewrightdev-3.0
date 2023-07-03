@@ -10,13 +10,23 @@ import global from '../global.module.css'
 
 import figlight2 from './images/figlight2.png'
 import figdark2 from './images/figdark2.png'
-import maker2 from './images/maker2.gif'
+import rwcube from './images/rwcube.gif'
 
 const Body_2 = () => {
     const [currentTab, setCurrentTab] = useState('1');
     const tabs = [
         {
             id: 1,
+            tabTitle: '3d models',
+            title: '3d Modeling with Spline',
+            title2: '',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
+            srcLight: rwcube,
+            srcDark: rwcube,
+            altText: 'A 3d model of a admin dashboad animating as it tracks a mouse cursor.',
+        },
+        {
+            id: 2,
             tabTitle: 'Illustrations',
             title: 'Modern .SVG Illustrations',
             title2: 'with Figma',
@@ -25,17 +35,6 @@ const Body_2 = () => {
             srcDark: figlight2,
             altText: 'An modern abstract illustration which includes vasious colorful shapes all aligned on a grid.',
         },
-        {
-            id: 2,
-            tabTitle: '3d models',
-            title: '3d Modeling with Spline',
-            title2: '',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
-            srcLight: maker2,
-            srcDark: maker2,
-            altText: 'A 3d model of a admin dashboad animating as it tracks a mouse cursor.',
-        },
-
     ];
 
     const handleTabClick = (e) => {
