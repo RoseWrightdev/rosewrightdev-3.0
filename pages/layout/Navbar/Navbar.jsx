@@ -77,6 +77,8 @@ const LogoSmall = () => {
           <rect x="4" y="4" width="2" height="2" rx="1" fill="white"/>
         </svg>
       </div>
+      <h1 className='font-semibold tracking-tight my-1 text-base text-black dark:text-white'>RoseWright.dev</h1>
+``
     </div>
   )
 }
