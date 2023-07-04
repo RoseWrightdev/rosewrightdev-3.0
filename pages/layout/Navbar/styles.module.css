@@ -38,10 +38,15 @@
 
 .mobile {
   display: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .desktop {
   display: block;
+  -webkit-user-select: none;
+  user-select: none;
+
 }
 
 @media only screen and (max-width: 1200px) {
