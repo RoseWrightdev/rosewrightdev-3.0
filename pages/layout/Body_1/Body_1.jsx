@@ -33,7 +33,7 @@ const Body_1 = () => {
             tabTitle: 'Statistics',
             title: 'Data Visualization',
             title2: 'with Matplotlib.',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
+            content: 'Statistics is the science of collecting, analyzing, presenting, and interpreting data. Data can be either quantitative or qualitative, depending on whether they measure or describe something. Statistics can be used for various purposes, such as making better-informed decisions, testing hypotheses, and communicating uncertainty. Statistics has two major branches: descriptive and inferential. Descriptive statistics summarize and display data using measures of central tendency, variability, and graphical tools. Inferential statistics draw conclusions about a population based on a sample of data using methods such as hypothesis testing, confidence intervals, and regression analysis. Statistics is an important field of study that has applications in many disciplines, such as economics, biology, psychology, and engineering.',
             srcLight: vis,
             srcDark: vis3,
             altText: 'A rotating representation of unlabled 3d data. The colors used for the data ranges from white at the bottom to red at the top.',

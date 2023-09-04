@@ -17,7 +17,7 @@ const Conclusion = () => {
             tabTitle: 'Contact',
             title: '',
             title2: 'talk to me',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Sit amet volutpat consequat mauris nunc. Id consectetur purus ut faucibus pulvinar elementum integer enim. Elit pellentesque habitant morbi tristique senectus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
+            content: 'Just send me an email! rosesophiewright@gmail.com',
         },
         {
             id: 2,
