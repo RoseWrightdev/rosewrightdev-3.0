@@ -9,8 +9,6 @@ import global from '../global.module.css'
 //images
 import vis from './images/vis.gif'
 import vis3 from './images/vis3.gif'
-import simple from './images/simple.jpg'
-import simpleDark from './images/simpleDark.gif'
 import finalDark from './images/finalDark.gif'
 import finalLight from './images/finalLight.gif'
 

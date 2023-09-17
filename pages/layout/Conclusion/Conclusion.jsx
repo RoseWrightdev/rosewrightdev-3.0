@@ -16,7 +16,7 @@ const Conclusion = () => {
             id: 1,
             tabTitle: 'Contact',
             title: '',
-            title2: 'talk to me',
+            title2: 'Talk to me',
             content: 'Just send me an email! rosesophiewright@gmail.com',
         },
         {
